@@ -9,8 +9,10 @@ export const API_OPTIONS = {
   headers: {
     accept: "application/json",
     Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5N2FlN2VmYTFlYjA2NjZmYjU4MjVkYjQyYjkxNDdjYiIsInN1YiI6IjY0NjFhYjAzNmUwZDcyMDBlMzFkMjA3ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.vPpiTgNZg6ew1CuU-N_0kDkdw4AMfPGoIA5cgX4cNjk",
+      `Bearer ${process.env.REACT_APP_TMDB_KEY}`
   },
 };
 
 export const IMG_CDN = "https://image.tmdb.org/t/p/w500/";
+
+export const BG_IMG = 'https://assets.nflxext.com/ffe/siteui/vlv3/16006346-87f9-4226-bc25-a1fb346a2b0c/9662d0fd-0547-4665-b887-771617268815/IN-en-20240115-popsignuptwoweeks-perspective_alpha_website_large.jpg'
