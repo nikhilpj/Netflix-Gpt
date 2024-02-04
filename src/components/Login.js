@@ -109,6 +109,9 @@ const Login = () => {
             ? "New to Netflix? Sign up Now"
             : "Already have account? Sign in"}
         </p>
+        
+        <p className="mt-4 font-bold text-lg">sample user name: user@gmail.com</p>
+        <p className="font-bold text-lg">sample password : User@123</p>
       </form>
     </div>
   );
